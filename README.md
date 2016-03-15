@@ -24,7 +24,7 @@ This can be output by different scoring software. MuseScore (http://musescore.or
 To use, simply run the parser.py script and provide the path to your MusicXML file and a path to save the produced file to.
 Then copy the arrays from the resulting file.
 
-IMPORTANT: As the arduino tone function can only play one tone at a time, the parser assumes that there's only one note at a 
+**IMPORTANT**: As the arduino tone function can only play one tone at a time, the parser assumes that there's only one note at a 
 time in the MusicXML file. If there are points with several notes played simultaneously, e.g. chords, these will be mapped
 one after the other by the parser, which will produce another result than expected. In other words, make sure that the score
 never plays more than one note at a time.
