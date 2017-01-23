@@ -8,7 +8,7 @@ The MusicPlayer Arduino library provides an easy way to play a simple melody ove
   2.  Make a new MusicPlayer object with the constructor MusicPlayer(pin, tempo, pauseLength, song, toneLengths, songLength):
     - pin: The pin to output the song over. (Must support PWM).
     - tempo: The tempo of the song (in BPM, beats per minute)
-    - pauseLength: If non-zero, adds a duration of silence between each note. In fraction of a quarter note.
+    - pauseLength: If non-zero, adds a duration of silence between each note, which helps separate the notes when several of the same note are played in succession. In fraction of a quarter note; should be quite small.
     - song: The array of note frequencies.
     - toneLengths: The array with the duration of each note (in fractions of a quarter note).
     - songLength: The amount of notes in the song. Corresponds to length of song and toneLengths arrays.
