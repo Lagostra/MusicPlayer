@@ -1,9 +1,9 @@
 # MusicPlayer
 
-The MusicPlayer Arduino library provides an easy way to play a simple melody over one of the Arduino's PWM output pins. 
+The MusicPlayer Arduino library provides an easy way to play a simple melody over one of the Arduino's PWM output pins. It also defines constants for all notes from C2 to C6.
 
 ###Usage:
-  1.  Make one array containing the frequencies of all the notes of the song, and one containing the duration of all notes.
+  1.  Make one array containing the frequencies of all the notes of the song (the note constants declared in MusicPlayer.cpp are useful here), and one containing the duration of all notes.
   	(Durations are given in fractions of a quarter note, i.e. half note = 2, eigth note = 1/2, and so on.)
   2.  Make a new MusicPlayer object with the constructor MusicPlayer(pin, tempo, pauseLength, song, toneLengths, songLength):
     - pin: The pin to output the song over. (Must support PWM).
