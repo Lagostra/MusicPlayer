@@ -1,7 +1,7 @@
 '''
     Takes a musicXML file, and creates a file that can be played by my MusicPlayer arduino library.
     Written by Eivind Lie Andreassen, 2016
-	Licensed under Creative Commons Attribution-ShareAlike 4.0 International. http://creativecommons.org/licenses/by-sa/4.0/
+    Licensed under the MIT license.
 '''
 
 import xml.dom.minidom
