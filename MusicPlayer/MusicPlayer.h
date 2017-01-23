@@ -2,7 +2,7 @@
 	MusicPlayer.h - Library for playing a song given by an ordered arrays
 	of the notes to be played, and a corresponding array of the note lengths.
 	Created by Eivind Lie Andreassen, 2016
-	Licensed under Creative Commons Attribution-ShareAlike 4.0 International. http://creativecommons.org/licenses/by-sa/4.0/
+	Licensed under the MIT License.
 */
 
 #ifndef MusicPlayer_h
